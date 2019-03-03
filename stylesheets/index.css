@@ -12,6 +12,15 @@ body {
   font-size: 0;
 }
 
+.body {
+  background: linear-gradient(180deg, rgba(247,203,140,1) 0%, rgba(247,203,140,1) 49%, rgba(149,72,110,1) 100%);
+  height: 100vh;
+}
+
+section.welcome {
+  text-align: center;
+}
+
 .logo {
   -webkit-text-stroke: 3px black;
   align-items: flex-end;
