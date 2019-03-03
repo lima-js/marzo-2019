@@ -1,0 +1,19 @@
+{
+  "name": "limajs.org",
+  "version": "0.0.0",
+  "description": "Sitio web de la comunidad de JavaScripters de Lima Perú",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lima-js/limajs.org.git"
+  },
+  "author": "limajs.org",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lima-js/limajs.org/issues"
+  },
+  "homepage": "https://github.com/lima-js/limajs.org#readme"
+}
