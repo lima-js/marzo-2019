@@ -7,6 +7,13 @@
   font-style: normal;
 }
 
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   font-family: sans-serif;
   font-size: 0;
@@ -24,7 +31,6 @@ section.welcome {
 .logo {
   -webkit-text-stroke: 3px black;
   align-items: flex-end;
-  box-sizing: border-box;
   border-radius: 50%;
   color: white;
   display: inline-block;
