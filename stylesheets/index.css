@@ -21,7 +21,7 @@ body {
 
 .body {
   background: linear-gradient(180deg, rgba(247,203,140,1) 0%, rgba(247,203,140,1) 49%, rgba(149,72,110,1) 100%);
-  height: 100vh;
+  height: 300vh;
 }
 
 section.welcome {
@@ -109,4 +109,110 @@ section.welcome .event-name {
 .cta-button:active {
   position:relative;
   top:1px;
+}
+
+.schedule {
+  color: white;
+  letter-spacing: 0.1rem;
+  margin: 0 auto;
+  text-shadow: 0px 1px 0 #000;
+  width: 40rem;
+}
+
+@media (max-width: 768px) {
+  .schedule {
+    width: 100%;
+  }
+}
+
+.schedule .schedule-title {
+  -webkit-text-stroke: 2px black;
+  font-size: 3rem;
+  text-align: center
+}
+
+.schedule .item {
+  background: #D46E56;
+  margin-bottom: 2rem;
+  min-height: 10rem;
+  transition: background-position 5s ease-in-out;
+  -webkit-filter: contrast(110%) brightness(110%) saturate(130%);
+  filter: contrast(110%) brightness(110%) saturate(130%);
+}
+
+.schedule .item:nth-child(even) {
+  text-align: right;
+}
+
+.schedule .talk-info {
+  display: inline-block;
+  padding: 20px;
+  vertical-align: top;
+  width: 70%;
+}
+
+.schedule .talk-title {
+  -webkit-text-stroke: 2px black;
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+.schedule .speaker-photo {
+  display: inline-block;
+  height: 15.25rem;
+  vertical-align: top;
+  width: 30%;
+}
+
+.schedule .networking {
+  background: url(../assets/images/welcome.png) no-repeat center fixed;
+  background-size: cover;
+}
+
+.schedule .networking:hover {
+  background-position: bottom;
+}
+
+.schedule .talk {
+  background: rgba(93,47,82,1);
+  background: linear-gradient(to bottom, rgba(93,47,82,1) 0%, rgba(93,47,82,1) 40%, rgba(212,109,86,1) 100%) top;
+}
+
+.schedule .talk:hover {
+  background-position: center;
+}
+
+.schedule .talk .speaker-social {
+  -webkit-text-stroke: 1px black;
+  color: white;
+  font-size: 2.5rem;
+  letter-spacing: 0;
+  text-decoration: none;
+}
+
+.schedule .interlude-1 {
+  background: url(//pbs.twimg.com/profile_banners/3338088405/1449524170/1500x500) no-repeat left;
+  background-size: cover;
+}
+
+.schedule .interlude-1:hover {
+  background-position: right;
+}
+
+.schedule .interlude-2 {
+  background: url(//www.socorroespacio.com/wp-content/uploads/2016/12/2016_08_torres-nunezdelprado_open_03_072dpi_web.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.schedule .interlude-2:hover {
+  background-position: bottom;
+}
+
+.schedule .interlude-3 {
+  background: url(//pbs.twimg.com/profile_banners/463017317/1538089080/1500x500) no-repeat top fixed;
+  background-size: cover;
+}
+
+.schedule .interlude-3:hover {
+  background-position: bottom;
 }
