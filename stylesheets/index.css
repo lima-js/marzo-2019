@@ -21,7 +21,7 @@ body {
 
 .body {
   background: linear-gradient(180deg, rgba(247,203,140,1) 0%, rgba(247,203,140,1) 49%, rgba(149,72,110,1) 100%);
-  height: 300vh;
+  height: 320vh;
 }
 
 section.welcome {
@@ -65,7 +65,6 @@ section.welcome .event-name {
   background: #D46E56;
   margin-bottom: 2rem;
   min-height: 10rem;
-  transition: background-position 5s ease-in-out;
   -webkit-filter: contrast(110%) brightness(110%) saturate(130%);
   filter: contrast(110%) brightness(110%) saturate(130%);
 }
@@ -95,7 +94,7 @@ section.welcome .event-name {
 }
 
 .schedule .networking {
-  background: url(../assets/images/welcome.png) no-repeat center fixed;
+  background: url(../assets/images/welcome.png) no-repeat fixed 0 -400px;
   background-size: cover;
 }
 
@@ -120,29 +119,24 @@ section.welcome .event-name {
   text-decoration: none;
 }
 
-.schedule .interlude-1 {
-  background: url(//pbs.twimg.com/profile_banners/3338088405/1449524170/1500x500) no-repeat left;
-  background-size: cover;
+.schedule .item .item-title {
+  -webkit-text-stroke: 2px black;
+  font-size: 2.5rem;
+  line-height: 10rem;
+  padding-right: 1rem;
 }
 
-.schedule .interlude-1:hover {
-  background-position: right;
+.schedule .interlude-1 {
+  background: url(//pbs.twimg.com/profile_banners/3338088405/1449524170/1500x500) no-repeat fixed;
+  background-size: cover;
 }
 
 .schedule .interlude-2 {
-  background: url(//www.socorroespacio.com/wp-content/uploads/2016/12/2016_08_torres-nunezdelprado_open_03_072dpi_web.jpg) no-repeat center;
+  background: url(//www.socorroespacio.com/wp-content/uploads/2016/12/2016_08_torres-nunezdelprado_open_03_072dpi_web.jpg) no-repeat fixed;
   background-size: cover;
-}
-
-.schedule .interlude-2:hover {
-  background-position: bottom;
 }
 
 .schedule .interlude-3 {
-  background: url(//pbs.twimg.com/profile_banners/463017317/1538089080/1500x500) no-repeat top fixed;
+  background: url(//pbs.twimg.com/profile_banners/463017317/1538089080/1500x500) no-repeat fixed 0 130px;
   background-size: cover;
-}
-
-.schedule .interlude-3:hover {
-  background-position: bottom;
 }
