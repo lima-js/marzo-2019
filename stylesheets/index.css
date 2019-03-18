@@ -38,77 +38,7 @@ section.welcome .event-name {
 }
 
 .logo {
-  -webkit-text-stroke: 3px black;
-  align-items: flex-end;
   border-radius: 50%;
-  color: white;
-  display: inline-block;
-  font-family: 'Neutra Text';
-  font-size: 10rem;
-  font-weight: bold; font-style: normal;
-  height: 20rem;
-  line-height: 30rem;
-  padding-right: 2.4rem;
-  position: relative;
-  vertical-align: top;
-  text-align: right;
-  text-shadow: 0px 5px 0 #000;
-  width: 20rem;
-}
-
-.logo-gradient {
-  background: rgba(93,47,82,1);
-  background: linear-gradient(to bottom, rgba(93,47,82,1) 0%, rgba(93,47,82,1) 40%, rgba(212,109,86,1) 100%);
-}
-
-.logo .lemon {
-  font-size: 8rem;
-  left: 1.2rem;
-  position: absolute;
-  top: -6.5rem;
-}
-
-.cta {
-  text-align: center;
-}
-
-.cta-button {
-  -moz-box-shadow:inset 0px 1px 0px 0px #fce2c1;
-  -webkit-box-shadow:inset 0px 1px 0px 0px #fce2c1;
-  box-shadow:inset 0px 1px 0px 0px #fce2c1;
-  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffc477), color-stop(1, #fb9e25));
-  background:-moz-linear-gradient(top, #ffc477 5%, #fb9e25 100%);
-  background:-webkit-linear-gradient(top, #ffc477 5%, #fb9e25 100%);
-  background:-o-linear-gradient(top, #ffc477 5%, #fb9e25 100%);
-  background:-ms-linear-gradient(top, #ffc477 5%, #fb9e25 100%);
-  background:linear-gradient(to bottom, #ffc477 5%, #fb9e25 100%);
-  background-color:#ffc477;
-  -moz-border-radius:6px;
-  -webkit-border-radius:6px;
-  border-radius:6px;
-  border:1px solid #eeb44f;
-  display:inline-block;
-  cursor:pointer;
-  color:#ffffff;
-  font-family:Arial;
-  font-size:15px;
-  font-weight:bold;
-  padding:6px 24px;
-  text-decoration:none;
-  text-shadow:0px 1px 0px #cc9f52;
-}
-.cta-button:hover {
-  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #fb9e25), color-stop(1, #ffc477));
-  background:-moz-linear-gradient(top, #fb9e25 5%, #ffc477 100%);
-  background:-webkit-linear-gradient(top, #fb9e25 5%, #ffc477 100%);
-  background:-o-linear-gradient(top, #fb9e25 5%, #ffc477 100%);
-  background:-ms-linear-gradient(top, #fb9e25 5%, #ffc477 100%);
-  background:linear-gradient(to bottom, #fb9e25 5%, #ffc477 100%);
-  background-color:#fb9e25;
-}
-.cta-button:active {
-  position:relative;
-  top:1px;
 }
 
 .schedule {
