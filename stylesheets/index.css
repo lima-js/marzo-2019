@@ -1,12 +1,3 @@
-@font-face {
-  font-family: 'Neutra Text';
-  src: url('../assets/fonts/NeutraText-Bold.woff2') format('woff2'),
-    url('../assets/fonts/NeutraText-Bold.woff') format('woff'),
-    url('../assets/fonts/NeutraText-Bold.ttf') format('truetype');
-  font-weight: bold;
-  font-style: normal;
-}
-
 html {
   box-sizing: border-box;
 }
