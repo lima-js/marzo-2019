@@ -53,6 +53,63 @@ section.welcome .event-name {
   }
 }
 
+.social {
+  text-align: center;
+}
+
+.social a {
+  display: inline-block;
+  padding: 12px;
+}
+
+.social svg {
+  width: 24px;
+}
+
+.social svg path,
+.social svg circle,
+.social svg ellipse {
+  fill: #666;
+}
+
+.social a:hover svg path,
+.social a:hover svg circle,
+.social a:hover svg ellipse {
+  fill: #fff;
+}
+
+.github:hover {
+  background-color: #181717;
+}
+
+.twitter:hover {
+  background-color: #1DA1F2;
+}
+
+.slack:hover {
+  background-color: #56B68B;
+}
+
+.facebook:hover {
+  background-color: #3B5998;
+}
+
+.eventbrite:hover {
+  background-color: #F6682F;
+}
+
+.youtube:hover {
+  background-color: #FF0000;
+}
+
+.twitch:hover {
+  background-color: #6441A4;
+}
+
+.meetup:hover {
+  background-color: #e0393e;
+}
+
 .schedule .schedule-title {
   -webkit-text-stroke: 2px black;
   font-size: 3rem;
