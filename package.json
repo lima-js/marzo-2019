@@ -1,19 +1,16 @@
 {
   "name": "limajs.org",
   "version": "0.0.0",
-  "description": "Sitio web de la comunidad de JavaScripters de Lima Perú",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "Sitio web de LimaJS para evento especial de Marzo 2019",
+  "main": "index.html",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lima-js/limajs.org.git"
+    "url": "git+https://github.com/lima-js/marzo-2019.git"
   },
   "author": "limajs.org",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lima-js/limajs.org/issues"
+    "url": "https://github.com/lima-js/marzo-2019/issues"
   },
-  "homepage": "https://github.com/lima-js/limajs.org#readme"
+  "homepage": "https://github.com/lima-js/marzo-2019"
 }
